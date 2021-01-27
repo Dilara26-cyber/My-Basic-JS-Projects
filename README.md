@@ -1,2 +1,2 @@
 # My-Basic-JS-Projects
-For learning purposes
+100 projects challange for myself. I aim to do JS project for speeding my learning process.  
