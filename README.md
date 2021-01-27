@@ -1,2 +1,2 @@
 # My-Basic-JS-Projects
-For learning purposes
+Changing the background color. 
