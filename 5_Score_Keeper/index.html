@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="photo-1576617497557-22895ee5930b.jpg" alt="Ping Pong" />
+      <h2>Ping Pong Score Keeper</h2>
+      <h1>
+        <span id="player_one_score">0</span> to
+        <span id="player_two_score">0</span>
+      </h1>
+      <p>Use the buttons below to keep score.</p>
+      <div class="options">
+        <label for="score_select"
+          >Playing to:
+          <select name="score" id="score_select">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select></label
+        >
+      </div>
+      <div class="btn">
+        <button class="btn_one" id="btn_one">Player 1</button>
+        <button class="btn_two" id="btn_two">Player 2</button>
+        <button id="btn_three">Reset</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

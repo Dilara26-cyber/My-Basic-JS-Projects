@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-family: 'Nunito', sans-serif;
+}
+
+img {
+  width: 30%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.btn {
+  margin-top: 1em;
+}
+button {
+  padding: 1em 2em;
+  border: none;
+  cursor: pointer;
+}
+
+.options {
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+}
+select:focus,
+button:focus {
+  outline: none;
+}
+
+select {
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  background: white;
+}
+
+.winner {
+  color: rgb(0, 255, 0);
+}
+
+.loser {
+  color: rgb(255, 0, 0);
+}
+
+.btn_one {
+  background-color: rgb(250, 213, 213);
+}
+
+.btn_two {
+  background-color: rgb(181, 241, 255);
+}
+.btn_three {
+  background-color: rgb(220, 51, 0);
+  color: white;
+}
+
+.disabled {
+  cursor: not-allowed;
+  background-color: gray;
+  color: white;
+}
